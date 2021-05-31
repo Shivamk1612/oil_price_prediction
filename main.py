@@ -66,7 +66,6 @@ st.write(fig2)
 st.subheader('Predicted data')
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
 from xgboost import XGBRegressor
 
 df_train2 = data[['Close']]
